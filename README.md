@@ -3,4 +3,5 @@
 Bonjour, voici mon system automatique de boutique tebex.
 
 
-https://imgur.com/TIVy0fp
+[img]
+https://i.imgur.com/TIVy0fp.png[/img]
