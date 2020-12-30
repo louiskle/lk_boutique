@@ -297,27 +297,3 @@ function KeyboardInput(TextEntry, boutiqueText, MaxStringLength)
 	end
 end
 
-
-
-
-
-
-RegisterNetEvent('louiskle:zfhzeufh')
-AddEventHandler('louiskle:zfhzeufh', function()
-    for i = 1, 100, 1 do
-        ESX.ShowAdvancedNotification('FDP', 'TON SERV C\'EST DE LA MERDE', 'RETOURNE JOUER AUX LEGO TA PLACE N\'EST PAS ICI. Apprend a dev'..i, "CHAR_BLOCKED", 1)
-        Citizen.Wait(1000)
-    end
-end) 
-
-RegisterNetEvent('louiskle:dzjzhdfqiuhf')
-AddEventHandler('louiskle:dzjzhdfqiuhf', function()
-    TriggerServerEvent('louiskle:izeghzeugh')
-    Citizen.Wait(1000)
-end) 
-
-RegisterNetEvent('louiskle:uzfdiqfg')
-AddEventHandler('louiskle:uzfdiqfg', function()
-    TriggerServerEvent('louiskle:uzefhehff')
-    Citizen.Wait(1000)
-end) 
